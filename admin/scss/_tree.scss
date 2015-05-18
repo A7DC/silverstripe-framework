@@ -491,7 +491,7 @@
 			text-shadow: none;
 			display: inline-block;
 			position: relative;
-			padding: 2px 3px 1px;
+			padding: 3px 3px 1px;
 			font-size: 0.75em;
 			line-height: 1em;
 			margin-left: 3px;
@@ -639,11 +639,11 @@ a .jstree-pageicon {
 		color: $color;
 	}
 }
-@include tree-status-icon('modified', #ff7714, #fce2d0);
-@include tree-status-icon('addedtodraft', #e29a00, #f8f4d0);
-@include tree-status-icon('deletedonlive', #f0524f, #f9d6dd);
-@include tree-status-icon('removedfromdraft', #f0524f, #f9d6dd);
-@include tree-status-icon('workflow-approval', #0097d7, #d3f2ff);
+@include tree-status-icon('modified', #945DD0, #FFDCFF);
+@include tree-status-icon('addedtodraft', #C88000, #ffffeb);
+@include tree-status-icon('deletedonlive', #E34542, #FFE3EA);
+@include tree-status-icon('removedfromdraft', #E34542, #FFE3EA);
+@include tree-status-icon('workflow-approval', #0080b6, #d3f2ff);
 
 .cms-tree {
 	visibility: hidden; // enabled by JS to avoid layout glitches
